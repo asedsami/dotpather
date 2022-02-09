@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard index.js test/index.js",
+    "typecheck": "tsc",
     "test": "node test/index.js && npm run lint"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "standard": "^5.4.1",
-    "tape": "^4.4.0"
+    "tape": "^4.4.0",
+    "typescript": "^4.5.5"
   }
 }
